@@ -1,0 +1,13 @@
+insert into shop.product_groups (id, group_name, parent_group_id) values (1, 'Бытовая техника', null);
+insert into shop.product_groups (id, group_name, parent_group_id) values (2, 'Товары для кухни', 1);
+insert into shop.product_groups (id, group_name, parent_group_id) values (3, 'Чайники', 2);
+insert into shop.product_groups (id, group_name, parent_group_id) values (4, 'Электроплиты', 2);
+insert into shop.product_groups (id, group_name, parent_group_id) values (5, 'Посудомоечные машины', 2);
+insert into shop.product_groups (id, group_name, parent_group_id) values (6, 'Компьютеры и периферия', null);
+insert into shop.product_groups (id, group_name, parent_group_id) values (7, 'Компьютеры', 6);
+insert into shop.product_groups (id, group_name, parent_group_id) values (8, 'Моноблоки', 7);
+insert into shop.product_groups (id, group_name, parent_group_id) values (9, 'Ноутбуки', 7);
+insert into shop.product_groups (id, group_name, parent_group_id) values (10, 'Периферия', 6);
+insert into shop.product_groups (id, group_name, parent_group_id) values (11, 'Мониторы', 10);
+insert into shop.product_groups (id, group_name, parent_group_id) values (12, 'Клавиатуры', 10);
+insert into shop.product_groups (id, group_name, parent_group_id) values (13, 'Мыши', 10);
